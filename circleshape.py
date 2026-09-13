@@ -17,7 +17,6 @@ class CircleShape(pygame.sprite.Sprite):
         self.radius = radius
 
     def draw(self, screen: pygame.Surface) -> None:
-        # must override
         pass
 
     def update(self, dt: float) -> None:
